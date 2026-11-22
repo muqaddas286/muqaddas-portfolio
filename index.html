@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Muqaddas Waheed - Full Stack Developer, AI Agents Developer and Digital Marketer.">
+<title>Muqaddas Waheed</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="bg"></canvas>
+<div id="spot"></div>
+
+<div id="loader" aria-hidden="true">
+  <div>
+    <div class="ring"><svg viewBox="0 0 110 110"><circle class="t" cx="55" cy="55" r="50"/><circle class="p" id="lp" cx="55" cy="55" r="50"/></svg><b><span id="lv">0</span><small>%</small></b></div>
+    <div class="loadname">Muqaddas Waheed</div>
+  </div>
+</div>
+
+<nav aria-label="Main">
+  <span class="mono-av">MW</span>
+  <a class="l" href="#about">About</a>
+  <a class="l" href="#skills">Skills</a>
+  <a class="l" href="#projects">Projects</a>
+  <a class="l" href="#contact">Contact</a>
+</nav>
+
+<header class="wrap hero" id="home">
+  <div><span class="tag"><i></i>Available for freelance and full-time roles</span></div>
+  <h1 class="name"><span class="a">Muqaddas</span><span class="b">Waheed</span></h1>
+  <div class="hero-row">
+    <p>I build full-stack web apps, AI agents that do real work, and digital marketing that brings people in. One person, from the first idea to the live result.</p>
+    <ul class="roles" id="roles">
+      <li class="on">Full Stack Developer</li>
+      <li>AI Agents Developer</li>
+      <li>Digital Marketer</li>
+    </ul>
+  </div>
+  <div class="cta-row">
+    <div class="links">
+      <a href="https://www.linkedin.com/in/muqaddas-waheed-0766693aa" target="_blank" rel="noopener">LinkedIn ↗</a>
+      <a href="https://wa.me/923709008913" target="_blank" rel="noopener">WhatsApp ↗</a>
+      <a href="#contact">Email ↗</a>
+    </div>
+    <div class="btns">
+      <a class="btn solid" href="#projects">View projects <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 12 12 2M5 2h7v7"/></svg></a>
+      <a class="btn" href="#contact">Contact me</a>
+    </div>
+  </div>
+  <div class="marq" aria-hidden="true"><div id="mq"></div></div>
+</header>
+
+<main class="wrap">
+  <section id="about">
+    <div class="eyebrow rv">Who am I</div>
+    <h2 class="big rv">Code, <em>agents</em> &amp; growth.</h2>
+    <div class="about">
+      <h3 class="rv">I build complete products, and then I help people find them.</h3>
+      <div class="rv">
+        <p>I'm <b>Muqaddas Waheed</b>, a full stack developer who also builds <b>AI agents</b> and runs <b>digital marketing</b>. That mix means I can design the interface, write the backend, connect an AI agent to the work, and plan the campaign that sends visitors to it.</p>
+        <p>I like projects where the result can be measured: fewer manual tasks, more leads, a faster site, a clearer message. If you have an idea or a messy process, I can help turn it into something that works.</p>
+        <div class="stats">
+          <div><strong>3</strong><span>Core skill areas</span></div>
+          <div><strong>24/7</strong><span>AI agents working</span></div>
+          <div><strong>1</strong><span>Person, end to end</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="eyebrow rv">Skills</div>
+    <h2 class="big rv">What I <em>work with</em></h2>
+    <div class="tabs rv" role="tablist" aria-label="Skill areas" id="tabs"></div>
+    <div class="skills rv">
+      <div class="col"><h4 id="h1"></h4><div class="slist" id="s1"></div></div>
+      <div class="orbit" id="orbit">
+        <div class="spin" id="spin"></div>
+        <div class="core" id="core"><strong>Skills</strong><small>Hover a skill</small></div>
+      </div>
+      <div class="col r"><h4 id="h2"></h4><div class="slist" id="s2"></div></div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="eyebrow rv">Selected work</div>
+    <h2 class="big rv"><em>Pro</em>jects</h2>
+    <div class="projects">
+      <article class="proj rv">
+        <div class="shot"><b>WEB</b></div>
+        <div>
+          <span class="sample">Sample · replace with your project</span>
+          <h3>Full Stack Web App</h3>
+          <p>A complete web application with a React front end, a Node.js and Express API, a MongoDB database and user login. Built for speed on phones and desktops.</p>
+          <div class="chips"><span>React</span><span>Node.js</span><span>MongoDB</span><span>REST API</span></div>
+          <a class="btn" href="#contact">Ask about this <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 12 12 2M5 2h7v7"/></svg></a>
+        </div>
+      </article>
+      <article class="proj rv">
+        <div class="shot"><b>AI</b></div>
+        <div>
+          <span class="sample">Sample · replace with your project</span>
+          <h3>AI Agent Assistant</h3>
+          <p>An AI agent that answers customer questions, looks up information from your own documents and hands the hard cases to a person. It saves hours of repeat work each week.</p>
+          <div class="chips"><span>LLM APIs</span><span>RAG</span><span>Python</span><span>Automation</span></div>
+          <a class="btn" href="#contact">Ask about this <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 12 12 2M5 2h7v7"/></svg></a>
+        </div>
+      </article>
+      <article class="proj rv">
+        <div class="shot"><b>ADS</b></div>
+        <div>
+          <span class="sample">Sample · replace with your project</span>
+          <h3>Growth Campaign</h3>
+          <p>A search and social campaign with clear messaging, tracked landing pages and weekly reports, so you can see which posts and ads bring in real customers.</p>
+          <div class="chips"><span>SEO</span><span>Meta Ads</span><span>Content</span><span>Analytics</span></div>
+          <a class="btn" href="#contact">Ask about this <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 12 12 2M5 2h7v7"/></svg></a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="eyebrow rv">Get in touch</div>
+    <h2 class="big rv">Let's build <em>something</em></h2>
+    <div class="cards rv">
+      <div class="cc"><small>Email</small><strong>muqaddaswaheed5@gmail.com</strong>
+        <div class="row"><button class="mini" data-copy="muqaddaswaheed5@gmail.com">Copy</button><a class="mini" href="mailto:muqaddaswaheed5@gmail.com">Send email</a></div></div>
+      <div class="cc"><small>Phone / WhatsApp</small><strong>+92 370 9008913</strong>
+        <div class="row"><button class="mini" data-copy="+923709008913">Copy</button><a class="mini" href="https://wa.me/923709008913" target="_blank" rel="noopener">WhatsApp</a></div></div>
+      <div class="cc"><small>LinkedIn</small><strong>Muqaddas Waheed</strong>
+        <div class="row"><a class="mini" href="https://www.linkedin.com/in/muqaddas-waheed-0766693aa" target="_blank" rel="noopener">Open profile ↗</a></div></div>
+    </div>
+    <form class="form rv" id="form">
+      <input id="fn" placeholder="Your name" aria-label="Your name" autocomplete="name">
+      <textarea id="fm" placeholder="Tell me about your project" aria-label="Message"></textarea>
+      <button class="btn solid" type="submit">Write my message <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 12 12 2M5 2h7v7"/></svg></button>
+    </form>
+  </section>
+</main>
+
+<footer class="wrap"><span>© 2026 Muqaddas Waheed</span><span>Full Stack · AI Agents · Digital Marketing</span></footer>
+<button id="top" aria-label="Back to top"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M8 14V2M3 7l5-5 5 5"/></svg></button>
+<div class="toast" id="toast" role="status"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
